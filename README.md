@@ -13,4 +13,4 @@ This app uses the Bored API to help you find things to do when you're bored.
 
 ## Preview
 
-![Screenshot](sample_random_things_1.png)
+![Screenshot](sample_random_things.png)
