@@ -1,7 +1,7 @@
 # RandomThings
 This app uses the Bored API to help you find things to do when you're bored.
 
-## Main Features
+## Built With
 1. Kotlin
 2. MVVM - Single Activity Architecture
 3. DataBinding - ViewBinding
