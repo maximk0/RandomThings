@@ -38,14 +38,14 @@ class MainFragment : Fragment() {
 
         binding.refresh.setOnClickListener {
             lifecycleScope.launch {
-                repeatOnLifecycle(Lifecycle.State.STARTED) {
+                viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
                     viewModel.reloadUsefulActivity()
                 }
             }
         }
 
         lifecycleScope.launch {
-            repeatOnLifecycle(Lifecycle.State.STARTED) {
+            viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.randomThings
                     .collect {
                         binding.message.text = it
