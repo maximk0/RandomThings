@@ -10,6 +10,7 @@ This app uses the Bored API to help you find things to do when you're bored.
 6. Dagger 2 DI
 7. Retrofit 2
 8. Moshi
+9. Tests - JUnit, Mockito
 
 ## Preview
 
